@@ -23,3 +23,5 @@ services:
         value: 2 # sensible default
       - key: XAI_API_KEY
         sync: false
+      - key: SECRET_KEY_BASE
+        sync: false
