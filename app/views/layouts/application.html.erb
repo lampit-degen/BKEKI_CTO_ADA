@@ -158,6 +158,22 @@
         .likes-dislikes ul ul.green li strong{
           color: #008000;
         }
+        @media (max-width: 768px) {
+          /* Adjust styles for tablets and mobile devices */
+          .container {
+            padding: 10px;
+          }
+          .hero-section h3 {
+            display: none;
+          }
+        }
+
+        @media (max-width: 480px) {
+          /* Adjust styles for mobile devices */
+          .header {
+            font-size: 18px;
+          }
+        }
     </style>
     <%= yield :head %>
 
